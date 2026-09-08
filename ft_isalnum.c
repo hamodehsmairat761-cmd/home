@@ -6,15 +6,15 @@
 /*   By: malsmira <malsmira@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 10:43:43 by malsmira          #+#    #+#             */
-/*   Updated: 2026/09/08 10:43:47 by malsmira         ###   ########.fr       */
+/*   Updated: 2026/09/08 13:16:02 by malsmira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalnum(int num)
+int	ft_isalnum(int c)
 {
-	if ((num >= 'a' && num <= 'z') || (num >= 'A' && num <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
-	else if (num >= '0' && num <= '9')
+	else if (c >= '0' && c <= '9')
 		return (1);
 	return (0);
 }

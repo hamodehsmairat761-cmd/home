@@ -6,13 +6,13 @@
 /*   By: malsmira <malsmira@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 10:44:18 by malsmira          #+#    #+#             */
-/*   Updated: 2026/09/08 10:44:19 by malsmira         ###   ########.fr       */
+/*   Updated: 2026/09/08 13:17:27 by malsmira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isascii(int asci)
+int	ft_isascii(int c)
 {
-	if (asci >= 0 && asci <= 127)
+	if (c >= 0 && c <= 127)
 		return (1);
 	return (0);
 }

@@ -6,13 +6,15 @@
 /*   By: malsmira <malsmira@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 12:49:17 by malsmira          #+#    #+#             */
-/*   Updated: 2026/09/08 13:00:02 by malsmira         ###   ########.fr       */
+/*   Updated: 2026/09/08 14:17:56 by malsmira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_bzero(void *s, size_t n)
+#include <stddef.h>
+
+void	ft_bzero(void *s, size_t n)
 {
-	size_t	i;
+	size_t			i;
 	unsigned char	*ptr;
 
 	i = 0;

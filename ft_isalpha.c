@@ -6,13 +6,13 @@
 /*   By: malsmira <malsmira@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 10:44:01 by malsmira          #+#    #+#             */
-/*   Updated: 2026/09/08 10:44:03 by malsmira         ###   ########.fr       */
+/*   Updated: 2026/09/08 13:16:51 by malsmira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(int alp)
+int	ft_isalpha(int c)
 {
-	if ((alp >= 'a' && alp <= 'z') || (alp >= 'A' && alp <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	return (0);
 }

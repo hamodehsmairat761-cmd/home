@@ -6,13 +6,13 @@
 /*   By: malsmira <malsmira@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 10:44:57 by malsmira          #+#    #+#             */
-/*   Updated: 2026/09/08 10:44:58 by malsmira         ###   ########.fr       */
+/*   Updated: 2026/09/08 13:20:07 by malsmira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(int print)
+int	ft_isprint(int c)
 {
-	if (print >= 32 && print <= 126)
+	if (c >= 32 && c <= 126)
 		return (1);
 	return (0);
 }

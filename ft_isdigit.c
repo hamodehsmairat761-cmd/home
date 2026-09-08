@@ -6,13 +6,13 @@
 /*   By: malsmira <malsmira@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 10:44:35 by malsmira          #+#    #+#             */
-/*   Updated: 2026/09/08 10:45:55 by malsmira         ###   ########.fr       */
+/*   Updated: 2026/09/08 13:18:45 by malsmira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isdigit(int dig)
+int	ft_isdigit(int c)
 {
-	if (dig >= '0' && dig <= '9')
+	if (c >= '0' && c <= '9')
 		return (1);
 	return (0);
 }

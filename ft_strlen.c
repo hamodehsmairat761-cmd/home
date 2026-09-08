@@ -6,9 +6,11 @@
 /*   By: malsmira <malsmira@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 10:45:13 by malsmira          #+#    #+#             */
-/*   Updated: 2026/09/08 11:01:49 by malsmira         ###   ########.fr       */
+/*   Updated: 2026/09/08 14:18:50 by malsmira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stddef.h>
 
 size_t	ft_strlen(const char *s)
 {
