@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: malsmira <malsmira@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/08 10:47:15 by malsmira          #+#    #+#             */
-/*   Updated: 2026/09/08 12:48:58 by malsmira         ###   ########.fr       */
+/*   Created: 2026/09/08 12:49:17 by malsmira          #+#    #+#             */
+/*   Updated: 2026/09/08 13:00:02 by malsmira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	*ft_memset(void *s, int c, size_t n)
+void    ft_bzero(void *s, size_t n)
 {
 	size_t	i;
 	unsigned char	*ptr;
@@ -19,9 +19,8 @@ void	*ft_memset(void *s, int c, size_t n)
 	ptr = s;
 	while (n != 0)
 	{
-		ptr[i] = c;
-		n--;
+		ptr[i] = 0;
 		i++;
+		n--;
 	}
-	return (s);
 }
